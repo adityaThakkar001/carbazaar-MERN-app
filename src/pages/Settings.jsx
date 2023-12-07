@@ -5,7 +5,7 @@ const Settings = () => {
   return (
     <div className="settings">
       <div className="settings__wrapper">
-        <h2 className="settings__title">Settings</h2>
+        <h2 className="settings__title">Sign Up</h2>
 
         <div className="settings__top">
           <button className="setting__btn">My Details</button>
@@ -38,14 +38,22 @@ const Settings = () => {
                 <label>Email</label>
                 <input type="email" placeholder="example@gmail.com" />
               </div>
+              
 
               <div>
                 <label>Phone Number</label>
                 <input type="number" placeholder="+880 17*******" />
               </div>
             </div>
-
             <div className="form__group">
+              <div>
+                <label>Password</label>
+                <input type="password" placeholder="Enter your password" />
+              </div>
+            <div>
+              <label>Confirm Password</label>
+              <input type="password" placeholder="Confirm your password" />
+            </div>
               <div>
                 <label>Date of Birth</label>
                 <input type="date" placeholder="dd/mm/yyyy" />
@@ -56,7 +64,6 @@ const Settings = () => {
                 <input type="text" placeholder="Male" />
               </div>
             </div>
-
             <div className="form__group">
               <div>
                 <label>Your Photo</label>
@@ -68,7 +75,7 @@ const Settings = () => {
 
               <div className="profile__img-btns">
                 <button className="dlt__btn">Delete</button>
-                <button className="update__btn">Update</button>
+                <button className="update__btn">Sign In</button>
               </div>
             </div>
           </form>
