@@ -7,7 +7,7 @@ const RecommendCarCard = (props) => {
       <div className="recommend__car-top">
         <h5>
           <span>
-            <i class="ri-refresh-line"></i>
+            <i className="ri-refresh-line"></i>
           </span>
           {percentage}% Recommended
         </h5>
@@ -21,15 +21,15 @@ const RecommendCarCard = (props) => {
         <div className="recommend__car-other">
           <div className="recommend__icons">
             <p>
-              <i class="ri-repeat-line"></i>
+              <i className="ri-repeat-line"></i>
           <span>₹{rentPrice}/h</span>
-          ₹{retweet}k
+          ₹{retweet}L
             </p>
             <p>
-              <i class="ri-settings-2-line"></i>
+              <i className="ri-settings-2-line"></i>
             </p>
             <p>
-              <i class="ri-timer-flash-line"></i>
+              <i className="ri-timer-flash-line"></i>
             </p>
           </div>
         </div>

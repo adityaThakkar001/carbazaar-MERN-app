@@ -5,8 +5,9 @@ import TrackingChart from "../charts/TrackingChart";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 
 const SellCar = () => {
-  const percentage = 55;
-  const percentage02 = 45;
+  const percentage = 69;
+  const percentage02 = 55;
+  const percentage03 = 42;
   return (
     <div className="sell__car">
       <div className="sell__car-wrapper">
@@ -41,12 +42,12 @@ const SellCar = () => {
               <div className="box__01">
                 <h3 className="client__name">Aditya Thakkar</h3>
                 <h6 className="avg__price">
-                  ₹16,605 <span>average price</span>
+                  ₹52,16,605 <span>average price</span>
                 </h6>
 
-                <h6 className="market__price">Market average is ₹16,244</h6>
+                <h6 className="market__price">Market average is ₹50,16,244</h6>
                 <span className="arrow__key">
-                  <i class="ri-arrow-right-line"></i>
+                  <i className="ri-arrow-right-line"></i>
                 </span>
               </div>
 
@@ -68,25 +69,25 @@ const SellCar = () => {
 
               <div className="box__03">
                 <span className="model__spend-icon">
-                  <i class="ri-car-line"></i>
+                  <i className="ri-car-line"></i>
                 </span>
-                <h6 className="spend__amount">₹1174</h6>
+                <h6 className="spend__amount">₹2,01,174</h6>
                 <p className="spend__title">Model Spend</p>
               </div>
 
               <div className="box__04">
                 <span className="model__spend-icon">
-                  <i class="ri-share-forward-line"></i>
+                  <i className="ri-share-forward-line"></i>
                 </span>
-                <h6 className="spend__amount">₹1174</h6>
+                <h6 className="spend__amount">₹1,21,174</h6>
                 <p className="spend__title">Model Spend</p>
               </div>
 
               <div className="box__05">
                 <span className="model__spend-icon">
-                  <i class="ri-money-dollar-circle-line"></i>
+                  <i className="ri-money-dollar-circle-line"></i>
                 </span>
-                <h6 className="spend__amount">₹811</h6>
+                <h6 className="spend__amount">₹50,811</h6>
                 <p className="spend__title">Spend Per Unit Turned</p>
               </div>
             </div>
@@ -94,20 +95,20 @@ const SellCar = () => {
               <div className="box__01">
                 <h3 className="client__name">Kaivalya Kulkarni</h3>
                 <h6 className="avg__price">
-                  ₹12,750 <span>average price</span>
+                  ₹51,12,750 <span>average price</span>
                 </h6>
 
-                <h6 className="market__price">Market average is ₹16,244</h6>
+                <h6 className="market__price">Market average is ₹50,16,244</h6>
                 <span className="arrow__key">
-                  <i class="ri-arrow-right-line"></i>
+                  <i className="ri-arrow-right-line"></i>
                 </span>
               </div>
 
               <div className="circle__wrapper">
                 <div className="box__02">
                   <CircularProgressbar
-                    value={percentage}
-                    text={`${percentage}%`}
+                    value={percentage03}
+                    text={`${percentage03}%`}
                     styles={buildStyles({
                       pathColor: "#01d293",
                       textColor: "#fff",
@@ -121,25 +122,25 @@ const SellCar = () => {
 
               <div className="box__03">
                 <span className="model__spend-icon">
-                  <i class="ri-car-line"></i>
+                  <i className="ri-car-line"></i>
                 </span>
-                <h6 className="spend__amount">₹1174</h6>
+                <h6 className="spend__amount">₹2,01,174</h6>
                 <p className="spend__title">Model Spend</p>
               </div>
 
               <div className="box__04">
                 <span className="model__spend-icon">
-                  <i class="ri-share-forward-line"></i>
+                  <i className="ri-share-forward-line"></i>
                 </span>
-                <h6 className="spend__amount">₹1174</h6>
+                <h6 className="spend__amount">₹2,01,174</h6>
                 <p className="spend__title">Model Spend</p>
               </div>
 
               <div className="box__05">
                 <span className="model__spend-icon">
-                  <i class="ri-money-dollar-circle-line"></i>
+                  <i className="ri-money-dollar-circle-line"></i>
                 </span>
-                <h6 className="spend__amount">₹811</h6>
+                <h6 className="spend__amount">₹50,811</h6>
                 <p className="spend__title">Spend Per Unit Turned</p>
               </div>
             </div>
@@ -147,12 +148,12 @@ const SellCar = () => {
               <div className="box__01">
                 <h3 className="client__name">Devansh Jollani</h3>
                 <h6 className="avg__price">
-                  ₹11,605 <span>average price</span>
+                  ₹25,11,605 <span>average price</span>
                 </h6>
 
-                <h6 className="market__price">Market average is ₹11,244</h6>
+                <h6 className="market__price">Market average is ₹20,11,244</h6>
                 <span className="arrow__key">
-                  <i class="ri-arrow-right-line"></i>
+                  <i className="ri-arrow-right-line"></i>
                 </span>
               </div>
 
@@ -174,25 +175,25 @@ const SellCar = () => {
 
               <div className="box__03">
                 <span className="model__spend-icon">
-                  <i class="ri-car-line"></i>
+                  <i className="ri-car-line"></i>
                 </span>
-                <h6 className="spend__amount">₹1174</h6>
+                <h6 className="spend__amount">₹2,01,174</h6>
                 <p className="spend__title">Model Spend</p>
               </div>
 
               <div className="box__04">
                 <span className="model__spend-icon">
-                  <i class="ri-share-forward-line"></i>
+                  <i className="ri-share-forward-line"></i>
                 </span>
-                <h6 className="spend__amount">₹1174</h6>
+                <h6 className="spend__amount">₹2,01,174</h6>
                 <p className="spend__title">Model Spend</p>
               </div>
 
               <div className="box__05">
                 <span className="model__spend-icon">
-                  <i class="ri-money-dollar-circle-line"></i>
+                  <i className="ri-money-dollar-circle-line"></i>
                 </span>
-                <h6 className="spend__amount">₹811</h6>
+                <h6 className="spend__amount">₹50,811</h6>
                 <p className="spend__title">Spend Per Unit Turned</p>
               </div>
               

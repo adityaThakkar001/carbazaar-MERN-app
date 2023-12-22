@@ -5,27 +5,27 @@ import car3 from "../images/mini-car-03.png";
 const recommendCars = [
   {
     id: "01",
-    carName: "Mini Cooper",
-    rentPrice: 32,
-    retweet: "132",
+    carName: "Toyota Prius",
+    rentPrice: 1650,
+    retweet: "6",
     imgUrl: car1,
-    percentage: "74",
+    percentage: "89",
   },
   {
     id: "02",
     carName: "Porsche 911 Carrera",
-    rentPrice: 28,
-    retweet: "130",
+    rentPrice: 36500,
+    retweet: "78",
     imgUrl: car2,
     percentage: "74",
   },
   {
     id: "03",
-    carName: "Porsche 911 Carrera",
-    rentPrice: 28,
-    retweet: "130",
+    carName: "Mini Cooper",
+    rentPrice: 21000,
+    retweet: "52",
     imgUrl: car3,
-    percentage: "74",
+    percentage: "56",
   },
 ];
 

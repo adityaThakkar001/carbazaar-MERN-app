@@ -8,7 +8,7 @@ const CarItem = (props) => {
         <div className="car__item-tile">
           <h3>{carName}</h3>
           <span>
-            <i class="ri-heart-line"></i>
+            <i className="ri-heart-line"></i>
           </span>
         </div>
         <p>{category}</p>
@@ -21,10 +21,10 @@ const CarItem = (props) => {
       <div className="car__item-bottom">
         <div className="car__bottom-left">
           <p>
-            <i class="ri-user-line"></i> {groupSize}
+            <i className="ri-user-line"></i> {groupSize}
           </p>
           <p>
-            <i class="ri-repeat-line"></i>
+            <i className="ri-repeat-line"></i>
             {type}
           </p>
         </div>
